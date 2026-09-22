@@ -1,0 +1,44 @@
+{
+  "name": "projectflow",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Full-stack project management application built with React, Express, PostgreSQL and Prisma.",
+  "type": "module",
+  "scripts": {
+    "dev": "ProjectFlow",
+    "build": "ProjectFlow build",
+    "lint": "eslint .",
+    "preview": "ProjectFlow preview",
+    "postinstall": "prisma skills sync || exit 0",
+    "server": "node server/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@ProjectFlowjs/plugin-react": "^6.1.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.6",
+    "globals": "^17.12.0",
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3",
+    "ProjectFlow": "^8.3.0"
+  },
+  "allowScripts": {
+    "@prisma/client@6.19.3": true,
+    "@prisma/engines@6.19.3": true,
+    "prisma@6.19.3": true
+  }
+}
