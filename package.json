@@ -5,13 +5,12 @@
   "description": "Full-stack project management application built with React, Express, PostgreSQL and Prisma.",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "ProjectFlow preview",
-    "postinstall": "prisma skills sync || exit 0",
-    "server": "node server/server.js"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "server": "node server/server.js"
+},
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
