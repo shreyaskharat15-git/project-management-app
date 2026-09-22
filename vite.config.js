@@ -1,7 +1,6 @@
-import react from '@ProjectFlowjs/plugin-react'
-import { defineConfig } from 'ProjectFlow'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://ProjectFlow.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+});
