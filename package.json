@@ -1,16 +1,16 @@
 {
   "name": "projectflow",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Full-stack project management application built with React, Express, PostgreSQL and Prisma.",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "server": "node server/server.js"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "server": "node server/server.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
@@ -33,8 +33,7 @@
     "eslint-plugin-react-refresh": "^0.5.6",
     "globals": "^17.12.0",
     "nodemon": "^3.1.14",
-    "prisma": "^6.19.3",
-    "ProjectFlow": "^8.3.0"
+    "prisma": "^6.19.3"
   },
   "allowScripts": {
     "@prisma/client@6.19.3": true,
