@@ -18,9 +18,7 @@ export default function App() {
       <Routes>
         <Route
           path="/"
-          element={
-            <Navigate to="/dashboard" replace />
-          }
+          element={<Navigate to="/login" replace />}
         />
 
         <Route
@@ -41,6 +39,11 @@ export default function App() {
         <Route
           path="/projects/:id"
           element={<Project />}
+        />
+
+        <Route
+          path="*"
+          element={<Navigate to="/login" replace />}
         />
       </Routes>
     </BrowserRouter>

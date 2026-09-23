@@ -1,5 +1,5 @@
 const API_URL =
-  "/api";
+  "http://localhost:5000/api";
 
 async function request(endpoint, options = {}) {
   const token = localStorage.getItem("token");

@@ -72,7 +72,7 @@ export default function Register() {
 
         <input
           name="name"
-          placeholder="Shreyas Patil"
+          placeholder="Shreyas Kharat"
           value={form.name}
           onChange={updateField}
           required
