@@ -1,4 +1,4 @@
-const API_URL = "/api";
+const API_URL = "https://projectflow-u0kj.onrender.com/api";
 
 async function request(endpoint, options = {}) {
   const token = localStorage.getItem("token");
