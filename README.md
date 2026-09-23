@@ -1,5 +1,17 @@
 # ProjectFlow
 
+A full-stack project management application built with React, Node.js, Express, PostgreSQL, and Prisma.
+
+## 🚀 Live Demo
+
+👉 https://projectflow-u0kj.onrender.com
+
+## 💻 GitHub Repository
+
+👉 https://github.com/shreyaskharat15-git/project-management-app
+
+# ProjectFlow
+
 ProjectFlow is a full-stack project management application for organizing projects and tracking tasks through a simple Kanban-style workflow.
 
 ## Features
